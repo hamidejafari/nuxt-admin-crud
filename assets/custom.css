@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../assets/fonts/vazir/Vazir.eot");
+  src: url("../assets/fonts/vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/vazir/Vazir.woff2") format("woff2"),
+    url("../assets/fonts/vazir/Vazir.woff") format("woff"),
+    url("../assets/fonts/vazir/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.v-icon {
+  color: white !important;
+}
+.v-list-item__title {
+  color: white !important;
+}
+.v-list-item__subtitle {
+  color: greenyellow !important;
+}
+.application {
+  font-family: "Vazir", Tahoma !important;
+  letter-spacing: 0 !important;
+}
+.v-main__wrap {
+  background-color: #efeff6cf;
+}
+.v-data-table {
+  box-shadow: 0px 5px 10px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.custom-headline {
+  font-family: Vazir !important;
+  background-color: #6200ea17;
+  padding: 10px;
+  border-radius: 5px;
+  /* text-align: center; */
+  box-shadow: 0px 5px 1px -1px rgb(0, 220, 130),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.custom-btn {
+  box-shadow: none !important;
+}
+th {
+  font-size: 16px !important;
+}
+.v-progress-linear--visible .v-progress-linear__indeterminate--active .long,
+.v-progress-linear--visible .v-progress-linear__indeterminate--active .short {
+  background-color: #6200ea !important;
+  border-color: #6200ea !important;
+}
+.v-btn {
+  letter-spacing: 0 !important;
+}
+.v-pagination__navigation .v-icon {
+  color: green !important;
+}
+.v-pagination__item {
+  border-radius: 100px !important;
+  font-size: 12px !important;
+}
+.v-pagination__navigation {
+  border-radius: 100px !important;
+  font-size: 12px !important;
+}
+.v-form {
+  background: white;
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.v-input__icon--prepend .v-icon{
+  color:#6200ea !important
+}
+.text-h4 .v-icon{
+color:white !important
+}
+.client-only-placeholder{
+  text-align:center !important;
+  font-size: 40px;
+  font-family: "Vazir", Tahoma !important;
+  direction: rtl;
+
+}
